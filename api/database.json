@@ -1,0 +1,44 @@
+{
+  "chicken": [
+    {
+      "id": 1,
+      "name": "Joe Thighsman",
+      "gender": "male",
+      "color": "red",
+      "spiceLevel": "3",
+      "purchased": true
+    },
+    {
+      "id": 3,
+      "name": "Kicken",
+      "gender": "female",
+      "color": "orange",
+      "spiceLevel": "3",
+      "purchased": true
+    },
+    {
+      "name": "Cluck Taylor",
+      "color": "purple",
+      "gender": "female",
+      "spiceLevel": "2",
+      "id": 4,
+      "purchased": false
+    },
+    {
+      "name": "Cluck Taylor",
+      "color": "purple",
+      "gender": "female",
+      "spiceLevel": "2",
+      "id": 5,
+      "purchased": false
+    },
+    {
+      "name": "Chuck Norris",
+      "color": "green",
+      "gender": "female",
+      "spiceLevel": "3",
+      "id": 6,
+      "purchased": true
+    }
+  ]
+}

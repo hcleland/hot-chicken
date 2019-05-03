@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Hot Chicken</title>
+</head>
+<body>
+    <h1>Oh the Places You will Go</h1>
+
+    <div>
+        <div id="chicken-cards"></div>
+    </div>
+
+    <!-- Edit Form Stuff Here -->
+    <div id="editForm"> 
+        <h1>Edit Chicken Info</h1>
+        <fieldset class="editChickenForm">
+            <label for="chickenId">Id:</label>
+            <input type="text" id="editChickenId">
+            <br />
+            <label for="chickenName">Chicken Name:</label>
+            <input type="text" id="editChickenName">
+            <br />
+            <label for="chickenSpice">Spice Level:</label>
+            <input type="radio" name="level" id="value1" value="1" checked>
+            <label for="value1">1</label>
+            <input type="radio" name="level" id="value2" value="2">
+            <label for="value1">2</label>
+            <input type="radio" name="level" id="value3" value="3">
+            <label for="value3">3</label>
+            <input type="radio" name="level" id="value4" value="4">
+            <label for="value4">4</label>
+            <input type="radio" name="level" id="value5" value="5">
+            <label for="value5">5</label>
+            <br />
+            <label for="chickenColor">Color:</label>
+            <input type="text" id="editChickenColor">
+            <br />
+            <p>Chicken Available?</p>
+            <input type="checkbox" id="chickenAvailableYes" value="true">
+            <label for="yesAvailable">YES</label>
+            <input type="checkbox" id="chickenAvailableNo" value="false">
+            <label for="notAvailable">NO</label>
+            <br />
+            <button id="saveEditedChickenBtn">Save Edits</button>
+        </fieldset>
+
+    </div>
+
+    <script src="src/scripts/dbcalls.js"></script>
+    <script src="src/scripts/main.js"></script>
+</body>
+</html>
